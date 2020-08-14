@@ -22,7 +22,7 @@
 //  THE SOFTWARE.
 //
 
-import Alamofire
+import Alamofire4
 import Foundation
 
 #if os(iOS) || os(tvOS) || os(watchOS)
