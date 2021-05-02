@@ -26,7 +26,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "AlamofireImage",
+    name: "AlamofireImage4",
     platforms: [
         .iOS(.v8),
         .macOS(.v10_10),
@@ -34,15 +34,15 @@ let package = Package(
         .watchOS(.v2)
     ],
     products: [
-        .library(name: "AlamofireImage", targets: ["AlamofireImage"])
+        .library(name: "AlamofireImage4", targets: ["AlamofireImage4"])
     ],
     dependencies: [
-        .package(url: "https://github.com/Alamofire/Alamofire.git", from: "4.9.0")
+        .package(url: "https://github.com/max-potapov/Alamofire", .exact("4.9.3"))
     ],
     targets: [
         .target(
-            name: "AlamofireImage",
-            dependencies: ["Alamofire"],
+            name: "AlamofireImage4",
+            dependencies: ["Alamofire4"],
             path: "Source"
         )
     ],
