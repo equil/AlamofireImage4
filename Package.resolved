@@ -2,12 +2,12 @@
   "object": {
     "pins": [
       {
-        "package": "Alamofire",
-        "repositoryURL": "https://github.com/Alamofire/Alamofire.git",
+        "package": "Alamofire4",
+        "repositoryURL": "https://github.com/max-potapov/Alamofire",
         "state": {
           "branch": null,
-          "revision": "747c8db8d57b68d5e35275f10c92d55f982adbd4",
-          "version": "4.9.1"
+          "revision": "b5c5f46b0804b2111396d79ec8fff14625d457c5",
+          "version": "4.9.3"
         }
       }
     ]

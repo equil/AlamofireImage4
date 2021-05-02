@@ -1,4 +1,4 @@
-// swift-tools-version:5.0
+// swift-tools-version:5.3
 //
 //  Package.swift
 //
@@ -37,7 +37,7 @@ let package = Package(
         .library(name: "AlamofireImage4", targets: ["AlamofireImage4"])
     ],
     dependencies: [
-        .package(url: "https://github.com/max-potapov/Alamofire", .exact("4.9.3"))
+        .package(name: "Alamofire4", url: "https://github.com/max-potapov/Alamofire", .exact("4.9.3"))
     ],
     targets: [
         .target(
