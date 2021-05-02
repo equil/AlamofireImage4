@@ -37,7 +37,7 @@ let package = Package(
         .library(name: "AlamofireImage4", targets: ["AlamofireImage4"])
     ],
     dependencies: [
-        .package(name: "Alamofire4", url: "https://github.com/max-potapov/Alamofire", .exact("4.9.3"))
+        .package(name: "Alamofire4", url: "https://github.com/equil/Alamofire4", .exact("4.9.3"))
     ],
     targets: [
         .target(
